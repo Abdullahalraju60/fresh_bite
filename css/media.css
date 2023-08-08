@@ -1,0 +1,338 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   /* header start */
+   .h_nav {
+      padding: 15px 0;
+
+  }
+  .off_nav{
+      background-color: #fff9ea;
+    }
+    .btn_box {
+      padding-top: 50px;
+      text-align: center;
+   }
+    .btn-close {
+      --bs-btn-close-opacity: 2.5;
+  }
+  .navbar {
+   --bs-navbar-toggler-focus-width: 0rem;
+  }
+  .navbar-nav {
+   --bs-nav-link-padding-y: 1rem;
+  }
+  .btn-close {
+   --bs-btn-close-focus-opacity: 0;
+  }
+
+  /* header end */
+    /* banner start */
+    .b_h1 {
+        padding-top: 0px;
+        font-size: 30px;
+    }
+    .b_p {
+        padding: 0px 3px;
+        margin-top: 15px;
+        margin-bottom: 1rem;
+    }
+    .b_img img {
+        padding: 20px 20px 20px;
+    }
+    .b_text{
+        text-align: center;
+    }
+
+    /* banner start */
+    /* How it works start */
+    .How_it_works {
+        padding: 30px 0;
+    }
+    .w_p {
+        padding: 0px 0px;
+        font-size: 16px;
+    }
+    .box img {
+      padding: 30px 100px 20px;
+  }
+    .w_h1{
+      font-size: 29px;
+    }
+    .box_h2 {
+        font-size: 25px;
+    }
+    .box_p {
+        font-size: 16px;
+    }
+    /* How it works end */
+    /* Our menu start */
+    .menuu {
+      padding: 30px 0px;
+  }
+    /* Our menu end */
+    /* Customers About Us */
+   /* Customers About Us */
+   /* counter start */
+   .coun {
+      margin: 20px 0px 20px 60px;
+   }
+    /* counter end */
+   /* discount banner */
+   .dis_h1 {
+      padding-top: 150px;
+      font-size: 20px;
+   }
+    /* discount banner */
+}
+ 
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header start */
+.h_nav {
+   padding: 15px 0;
+
+}
+.off_nav{
+   background-color: #fff9ea;
+ }
+.btn_box {
+   padding-top: 50px;
+   text-align: center;
+}
+.btn-close {
+   --bs-btn-close-opacity: 2.5;
+}
+.navbar {
+   --bs-navbar-toggler-focus-width: 0rem;
+}
+.navbar-nav {
+   --bs-nav-link-padding-y: 1rem;
+}
+.btn-close {
+   --bs-btn-close-focus-opacity: 0;
+}
+/* header end */
+    /* banner start */
+    .b_h1 {
+        padding-top: 10px;
+        font-size: 40px;
+    }
+    .b_p{
+        padding: 0 55px;
+        margin-top: 20px;
+        margin-bottom: 1rem;
+    }
+    .b_text{
+        text-align: center;
+    }
+
+    /* banner start */
+    /* How it works start */
+    .How_it_works {
+      padding: 30px 0;
+  }
+    .w_p {
+        padding: 0 19px;
+        font-size: 17px;
+    }
+    .box img {
+      padding: 30px 190px 20px;
+  }
+    .box_h2 {
+        font-size: 25px;
+    }
+    .box_p {
+        font-size: 17px;
+    }
+    /* How it works end */
+    /* Our menu start */
+    .menuu {
+      padding: 25px 0;
+  }
+    .img_box img {
+      padding: 32px 10px 20px;
+   }
+    /* Our menu end */
+    /* Customers About Us */
+    /* Customers About Us */
+    /* counter start */
+    .coun {
+      margin: 40px 100px 28px 155px;
+    }
+  
+    /* counter end */
+    /* discount banner */
+    .dis_h1 {
+      padding-top: 120px;
+      font-size: 30px;
+    }
+    /* discount banner */
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    .h_nav {
+      padding: 15px 0;
+
+  }
+  .off_nav{
+   background-color: #fff9ea;
+ }
+  .navbar {
+   --bs-navbar-toggler-focus-width: 0rem;
+  }
+  .btn_box {
+   padding-top: 50px;
+   text-align: center;
+}
+.navbar-nav {
+   --bs-nav-link-padding-y: 1rem;
+}
+.btn-close {
+   --bs-btn-close-focus-opacity: 0;
+}
+  /* header end */
+    /* banner start */
+    .b_text{
+      text-align: center;
+  }
+    .b_img img {
+      padding: 5px 163px 10px;
+  }
+    .b_h1 {
+      font-size: 30px;
+      padding-top: 20px;
+    }
+    /* banner start */
+/* How it works start */
+.w_p {
+    padding: 0 100px;
+    font-size: 18px;
+}
+.box img {
+    padding: 40px 50px 20px;
+}
+.box_h2 {
+    font-size: 22px;
+}
+.box_p {
+    font-size: 17px;
+}
+/* How it works end */
+/* Our menu start */
+
+/* Our menu end */
+/* Customers About Us */
+/* Customers About Us */
+/* counter start */
+.coun {
+   margin: 25px 0px 25px 8px
+}
+/* counter end */
+/* discount banner */
+/* discount banner */
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   /* header start */
+   .off_nav ul li a {
+      font-size: 15px;
+      padding-right: 1rem !important;
+      padding-left: 1rem !important;
+  }
+  .btn_box img {
+   padding: 0 10px;
+}
+  /* header end */
+    /* banner start */
+    .b_h1 {
+      padding-top: 25px;
+    }
+    .b_h1 {
+      padding-top: 50px;
+      font-size: 39px;
+    }
+    .w_p {
+      padding: 0 200px;
+    }
+
+    /* banner start */
+    /* How it works start */
+    .box img {
+      padding: 50px 90px 20px;
+  }
+    /* How it works end */
+    /* Our menu start */
+     /* Our menu end */
+    /* Customers About Us */
+    .no{
+      display: none;
+    }
+   /* Customers About Us */
+   /* counter start */
+   .coun {
+      margin: 40px 0px 28px 50px;
+   }
+    /* counter end */
+   /* discount banner */
+/* discount banner */
+  
+}
+ 
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* header start */
+    .off_nav ul li a {
+      font-size: 17px;
+      padding-right: 1rem !important;
+      padding-left: 1rem !important;
+  } 
+  /* header end */
+    /* banner start */
+    .b_h1 {
+      font-size: 47px;
+      padding-top: 60px;
+    }
+    /* banner start */
+    /* How it works start */
+    /* How it works end */
+    /* Our menu start */
+     /* Our menu end */
+/* Customers About Us */
+.no{
+   display: none;
+ }
+/* Customers About Us */
+/* counter start */
+.coun {
+   margin: 40px 0px 28px 80px;
+}
+
+/* counter end */
+/* discount banner */
+/* discount banner */
+}
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+   /* header start */
+   .menu_bar{
+    display: none;
+}
+.hamburger-menu-container {
+   flex: 0;
+}
+    /* header end */
+    /* banner start */
+
+    /* banner start */
+    /* How it works start */
+    /* How it works end */
+    /* Our menu start */
+    /* Our menu end */
+/* Customers About Us */
+/* Customers About Us */
+/* counter start */
+/* counter end */
+/* discount banner */
+/* discount banner */
+}

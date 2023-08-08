@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Lato:wght@400;700&family=Lobster&family=Nunito:wght@200;300;400;600&family=Oswald&family=Pangolin&family=Playfair+Display&family=Poppins:wght@400;500;700&family=Raleway:wght@400;500;600;700&family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Readex Pro', sans-serif;
+}
+
+/* header start */
+header{
+  background-color: #FFF9EA;
+}
+.h_nav{
+  margin: 0;
+  padding: 25px 0;
+}
+.offcanvas-header{
+  background: rgb(241, 242, 231);
+}
+.navbar-toggler{
+  border: 1px solid #0d0d0d;
+}
+.navbar-toggler:hover{
+  border: 2px solid;
+  background-color: #e6e4ec;
+}
+
+.navbar-toggler-icon{
+  color: white !important;
+}
+.off_nav{
+}
+.off_nav ul li a{
+  color: black;
+  text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.off_nav ul li a:hover{
+  transition: .33s;
+  border-radius: 30px;
+  color: #FFCB45;
+}
+.bbttnn{
+  text-align: center;
+  color: black;
+  border-radius: 34px;
+  background: #FFCB45;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.bbttnn:hover{
+  border: 1px solid;
+}
+.btn_box img{
+  padding: 0 15px;
+}
+/* header end */
+/*  */
+.banner{
+  background-color: var(--light, #FFF9EA);
+}
+.common{
+  justify-content: space-between;
+}
+.b_text{
+  padding-bottom: 20px;
+}
+.b_h1{
+  padding-top: 145px;
+  color: var(--primary, #1D1D1D);
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.b_h1 span{
+  color: var(--primary, #FFCB45);
+}
+.b_p{
+  padding: 20px 0;
+}
+.b_img{
+}
+.b_img img {
+  padding: 30px 100px 20px;
+}
+.bb_btn{
+  padding-right: 5px;
+}
+/* How it works start */
+ .How_it_works{
+  padding: 50px 0;
+ }
+ .w_h2{
+  color: var(--primary, #FFCB45);
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+ }
+ .w_h1{
+  color: var(--black, #1D1D1D);
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+ }
+ .w_p{
+  padding: 0 340px;
+  color: var(--textlight, rgba(29, 29, 29, 0.70));
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+ }
+ /*  */
+ .box{}
+ .box img {
+  padding: 50px 120px 20px;
+}
+ .box_h2{
+  color: var(--black, #1D1D1D);
+  text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+ }
+ .box_p{
+  color: var(--textlight, rgba(29, 29, 29, 0.70));
+  text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+ }
+/* How it works end */
+/* Our menu start */
+.menuu{
+  padding: 50px 0;
+}
+.box2{
+  padding: 0 20px;
+  margin-top: 30px;
+  box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+}
+.img_box{
+  border-radius: 10px;
+  background-color: #F1F1F1;
+}
+.img_box img {
+  padding: 40px 50px 25px;
+}
+.box2_h2{
+  padding-top: 10px;
+  color: var(--black, #1D1D1D);
+  text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.box2_p{
+  color: var(--textlight, rgba(29, 29, 29, 0.70));
+  text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bo span{
+  padding-bottom: 20px;
+  color: var(--black, #1D1D1D);
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.buttton{
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+/* Our menu end */
+/* Customers About Us start */
+.about{
+  padding-top: 40px;
+}
+.box5{
+  margin-top: 20px;
+  position: relative;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #F1F1F1;
+}
+.flx{
+  margin: 0;
+  justify-content: space-around
+}
+.c_h2{
+  position: absolute;
+  top: 45px;
+  left: 110px;
+  color: var(--black, #1D1D1D);
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.c_p{
+  margin: 0;
+  padding-top: 10px;
+  color: var(--textlight, rgba(29, 29, 29, 0.70));
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.star{
+  position: absolute;
+  font-size: 0px;
+  top: 72px;
+  left: 108px;
+}
+/* Customers About Us end */
+/* counter start */
+.coun {
+  margin: 40px 100px 28px 100px;
+  width: 200px;
+  height: 150px;
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 5px;
+  background: #FFF9EA;
+  color: #FFCB45;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+/* counter end */
+/* discount banner */
+.padd{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.discount{
+  border-radius: 20px;
+  background-color: #F1F1F1;
+  width:100%;
+  height: 333px;
+}
+.dis_h1{
+  padding-top:100px ;
+  color: black;
+  text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* discount banner */
+/* contact start */
+.Contact{
+  padding: 40px 0;
+}
+.contact-form {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.contact-form label {
+  color: black;
+}
+
+.contact-form .heading {
+  font-size: 24px;
+  color: black;
+  ;
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+  width: 100%;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #FFCB45;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #FFCB45;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* contact end */
+ /* footer start */
+ .footer_top{
+  padding: 40px 0 15px;
+  background-color: #FFF9EA;
+}
+.ft_details{
+  padding-right: 120px;
+}
+.ft_details p{
+  color: var(--textlight, rgba(29, 29, 29, 0.70));
+  line-height: 30px;
+}
+.ft_links h2{
+  margin-bottom: 8px;
+  color: #1D1D1D;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.ft_links ul li a{
+  display: block;
+  margin-bottom: 5px;
+  color: var(--textlight, rgba(29, 29, 29, 0.70));
+  text-decoration: none;
+}
+/* footer */
+footer{
+  padding: 30px 0;
+  background-color: #FFF9EA;
+}
+footer p{
+  text-align: center;
+  color: #1D1D1D;
+}
+.f_icon{
+  font-size: 25px;
+}
+.f_icon span{
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  padding: 0 8px;
+}
+.f_icon span:hover{
+  transition: .33s;
+  background-color: #FFCB45;
+}
+/* footer end */
+
+
+
+
